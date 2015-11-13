@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037F143C1BF5D6360052A7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F143B1BF5D6360052A7A0 /* main.m */; };
+		037F14471BF5D6360052A7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037F14461BF5D6360052A7A0 /* Images.xcassets */; };
+		037F144A1BF5D6360052A7A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037F14481BF5D6360052A7A0 /* LaunchScreen.xib */; };
+		037F14691BF5D6AB0052A7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14621BF5D6AB0052A7A0 /* AppDelegate.m */; };
+		037F146A1BF5D6AB0052A7A0 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14641BF5D6AB0052A7A0 /* BootLogic.m */; };
+		037F146B1BF5D6AB0052A7A0 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14661BF5D6AB0052A7A0 /* ConsoleScreen.m */; };
+		037F146C1BF5D6AB0052A7A0 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14681BF5D6AB0052A7A0 /* MainScreen.m */; };
+		037F14781BF5D6C00052A7A0 /* IAmRich.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F146E1BF5D6C00052A7A0 /* IAmRich.m */; };
+		037F14791BF5D6C00052A7A0 /* IAmRich.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037F146F1BF5D6C00052A7A0 /* IAmRich.xib */; };
+		037F147A1BF5D6C00052A7A0 /* IWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14711BF5D6C00052A7A0 /* IWeather.m */; };
+		037F147B1BF5D6C00052A7A0 /* IWeather.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037F14721BF5D6C00052A7A0 /* IWeather.xib */; };
+		037F147C1BF5D6C00052A7A0 /* PrintZigZag.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14741BF5D6C00052A7A0 /* PrintZigZag.m */; };
+		037F147D1BF5D6C00052A7A0 /* RunningLED.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F14761BF5D6C00052A7A0 /* RunningLED.m */; };
+		037F147E1BF5D6C00052A7A0 /* RunningLED.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037F14771BF5D6C00052A7A0 /* RunningLED.xib */; };
+		037F14811BF5D7210052A7A0 /* darkBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 037F147F1BF5D7210052A7A0 /* darkBall.png */; };
+		037F14821BF5D7210052A7A0 /* lightBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 037F14801BF5D7210052A7A0 /* lightBall.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037F14361BF5D6360052A7A0 /* TechExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037F143A1BF5D6360052A7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037F143B1BF5D6360052A7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037F14461BF5D6360052A7A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		037F14491BF5D6360052A7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		037F14611BF5D6AB0052A7A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		037F14621BF5D6AB0052A7A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		037F14631BF5D6AB0052A7A0 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		037F14641BF5D6AB0052A7A0 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		037F14651BF5D6AB0052A7A0 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		037F14661BF5D6AB0052A7A0 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		037F14671BF5D6AB0052A7A0 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		037F14681BF5D6AB0052A7A0 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		037F146D1BF5D6C00052A7A0 /* IAmRich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAmRich.h; sourceTree = "<group>"; };
+		037F146E1BF5D6C00052A7A0 /* IAmRich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAmRich.m; sourceTree = "<group>"; };
+		037F146F1BF5D6C00052A7A0 /* IAmRich.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAmRich.xib; sourceTree = "<group>"; };
+		037F14701BF5D6C00052A7A0 /* IWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWeather.h; sourceTree = "<group>"; };
+		037F14711BF5D6C00052A7A0 /* IWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWeather.m; sourceTree = "<group>"; };
+		037F14721BF5D6C00052A7A0 /* IWeather.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWeather.xib; sourceTree = "<group>"; };
+		037F14731BF5D6C00052A7A0 /* PrintZigZag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintZigZag.h; sourceTree = "<group>"; };
+		037F14741BF5D6C00052A7A0 /* PrintZigZag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintZigZag.m; sourceTree = "<group>"; };
+		037F14751BF5D6C00052A7A0 /* RunningLED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningLED.h; sourceTree = "<group>"; };
+		037F14761BF5D6C00052A7A0 /* RunningLED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningLED.m; sourceTree = "<group>"; };
+		037F14771BF5D6C00052A7A0 /* RunningLED.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunningLED.xib; sourceTree = "<group>"; };
+		037F147F1BF5D7210052A7A0 /* darkBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkBall.png; sourceTree = "<group>"; };
+		037F14801BF5D7210052A7A0 /* lightBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightBall.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037F14331BF5D6360052A7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037F142D1BF5D6360052A7A0 = {
+			isa = PBXGroup;
+			children = (
+				037F14381BF5D6360052A7A0 /* TechExcercise */,
+				037F14371BF5D6360052A7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037F14371BF5D6360052A7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037F14361BF5D6360052A7A0 /* TechExcercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037F14381BF5D6360052A7A0 /* TechExcercise */ = {
+			isa = PBXGroup;
+			children = (
+				037F145F1BF5D65B0052A7A0 /* Core */,
+				037F14601BF5D6650052A7A0 /* MainVC */,
+				037F14391BF5D6360052A7A0 /* Supporting Files */,
+			);
+			path = TechExcercise;
+			sourceTree = "<group>";
+		};
+		037F14391BF5D6360052A7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				037F14461BF5D6360052A7A0 /* Images.xcassets */,
+				037F14481BF5D6360052A7A0 /* LaunchScreen.xib */,
+				037F143A1BF5D6360052A7A0 /* Info.plist */,
+				037F143B1BF5D6360052A7A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		037F145F1BF5D65B0052A7A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				037F14611BF5D6AB0052A7A0 /* AppDelegate.h */,
+				037F14621BF5D6AB0052A7A0 /* AppDelegate.m */,
+				037F14631BF5D6AB0052A7A0 /* BootLogic.h */,
+				037F14641BF5D6AB0052A7A0 /* BootLogic.m */,
+				037F14651BF5D6AB0052A7A0 /* ConsoleScreen.h */,
+				037F14661BF5D6AB0052A7A0 /* ConsoleScreen.m */,
+				037F14671BF5D6AB0052A7A0 /* MainScreen.h */,
+				037F14681BF5D6AB0052A7A0 /* MainScreen.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		037F14601BF5D6650052A7A0 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				037F147F1BF5D7210052A7A0 /* darkBall.png */,
+				037F14801BF5D7210052A7A0 /* lightBall.png */,
+				037F146D1BF5D6C00052A7A0 /* IAmRich.h */,
+				037F146E1BF5D6C00052A7A0 /* IAmRich.m */,
+				037F146F1BF5D6C00052A7A0 /* IAmRich.xib */,
+				037F14701BF5D6C00052A7A0 /* IWeather.h */,
+				037F14711BF5D6C00052A7A0 /* IWeather.m */,
+				037F14721BF5D6C00052A7A0 /* IWeather.xib */,
+				037F14731BF5D6C00052A7A0 /* PrintZigZag.h */,
+				037F14741BF5D6C00052A7A0 /* PrintZigZag.m */,
+				037F14751BF5D6C00052A7A0 /* RunningLED.h */,
+				037F14761BF5D6C00052A7A0 /* RunningLED.m */,
+				037F14771BF5D6C00052A7A0 /* RunningLED.xib */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037F14351BF5D6360052A7A0 /* TechExcercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037F14591BF5D6360052A7A0 /* Build configuration list for PBXNativeTarget "TechExcercise" */;
+			buildPhases = (
+				037F14321BF5D6360052A7A0 /* Sources */,
+				037F14331BF5D6360052A7A0 /* Frameworks */,
+				037F14341BF5D6360052A7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechExcercise;
+			productName = TechExcercise;
+			productReference = 037F14361BF5D6360052A7A0 /* TechExcercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037F142E1BF5D6360052A7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ChauNguyen;
+				TargetAttributes = {
+					037F14351BF5D6360052A7A0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 037F14311BF5D6360052A7A0 /* Build configuration list for PBXProject "TechExcercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037F142D1BF5D6360052A7A0;
+			productRefGroup = 037F14371BF5D6360052A7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037F14351BF5D6360052A7A0 /* TechExcercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037F14341BF5D6360052A7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037F144A1BF5D6360052A7A0 /* LaunchScreen.xib in Resources */,
+				037F14471BF5D6360052A7A0 /* Images.xcassets in Resources */,
+				037F147B1BF5D6C00052A7A0 /* IWeather.xib in Resources */,
+				037F14791BF5D6C00052A7A0 /* IAmRich.xib in Resources */,
+				037F14811BF5D7210052A7A0 /* darkBall.png in Resources */,
+				037F147E1BF5D6C00052A7A0 /* RunningLED.xib in Resources */,
+				037F14821BF5D7210052A7A0 /* lightBall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037F14321BF5D6360052A7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037F146A1BF5D6AB0052A7A0 /* BootLogic.m in Sources */,
+				037F147C1BF5D6C00052A7A0 /* PrintZigZag.m in Sources */,
+				037F14781BF5D6C00052A7A0 /* IAmRich.m in Sources */,
+				037F147D1BF5D6C00052A7A0 /* RunningLED.m in Sources */,
+				037F146C1BF5D6AB0052A7A0 /* MainScreen.m in Sources */,
+				037F146B1BF5D6AB0052A7A0 /* ConsoleScreen.m in Sources */,
+				037F14691BF5D6AB0052A7A0 /* AppDelegate.m in Sources */,
+				037F143C1BF5D6360052A7A0 /* main.m in Sources */,
+				037F147A1BF5D6C00052A7A0 /* IWeather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		037F14481BF5D6360052A7A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037F14491BF5D6360052A7A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037F14571BF5D6360052A7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037F14581BF5D6360052A7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037F145A1BF5D6360052A7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TechExcercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		037F145B1BF5D6360052A7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TechExcercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037F14311BF5D6360052A7A0 /* Build configuration list for PBXProject "TechExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037F14571BF5D6360052A7A0 /* Debug */,
+				037F14581BF5D6360052A7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037F14591BF5D6360052A7A0 /* Build configuration list for PBXNativeTarget "TechExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037F145A1BF5D6360052A7A0 /* Debug */,
+				037F145B1BF5D6360052A7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037F142E1BF5D6360052A7A0 /* Project object */;
+}
